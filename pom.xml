@@ -48,10 +48,16 @@
         </dependency>
 
         <!--<dependency>-->
-            <!--<groupId>org.apache.flink</groupId>-->
-            <!--<artifactId>flink-jdbc</artifactId>-->
-            <!--<version>1.7.2</version>-->
+        <!--<groupId>org.apache.flink</groupId>-->
+        <!--<artifactId>flink-jdbc</artifactId>-->
+        <!--<version>1.7.2</version>-->
         <!--</dependency>-->
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.2</version>
+        </dependency>
 
     </dependencies>
 
